@@ -10,6 +10,7 @@ After you fork this repo, run ```ruby bin/console``` from this directory
 ## Usage
 
 Upon startup, you'll be greeted by a UI like this:  
+
 ```
 _____Harry Potter Character Wiki_____
 
@@ -26,7 +27,9 @@ What would you like to do?
 The UI is pretty self-explanatory, but put briefly:  
 
 ### Find Character By Name  
-    This will ask for the (specific) name of a character, and return their details.  
+
+This will ask for the (specific) name of a character, and return their details.  
+    
     ```
     Name of character (case_insensitive): harry potter
 
@@ -44,8 +47,10 @@ The UI is pretty self-explanatory, but put briefly:
     ```
 
 ### Search All Characters
-    This one will accept a name and returns a list of characters containing that name.  
-    Like, for instance, if you search "weasley", it will return:  
+
+This one will accept a name and returns a list of characters containing that name.  
+Like, for instance, if you search "weasley", it will return:  
+    
     ```
     Find all characters with (case_insensitive): weasley
 
@@ -62,11 +67,13 @@ The UI is pretty self-explanatory, but put briefly:
     You can then pick a character from this list to view the details of.  
 
 ### List All Characters
-    ...this lists all the characters.
+
+...this lists all the characters.
 
 ### List Characters By School/House
-    These two are pretty similar. Each lists all schools/houses respectively,  
-    and you can choose a school/house to view the students of.
+
+These two are pretty similar. Each lists all schools/houses respectively,  
+and you can choose a school/house to view the students of.
 
 ## Development
 
