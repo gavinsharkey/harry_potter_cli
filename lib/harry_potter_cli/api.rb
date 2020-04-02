@@ -17,6 +17,7 @@ class HarryPotterCLI::API
     self.make_characters
     self.make_schools
     self.make_houses
+    self
   end
 
   def make_characters
