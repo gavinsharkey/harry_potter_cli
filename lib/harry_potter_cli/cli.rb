@@ -31,7 +31,7 @@ class HarryPotterCLI::CLI
   def list_options
     puts ''
     puts "1. Find Character By Name"
-    puts "2: Find Characters By Name"
+    puts "2: Search All Characters"
     puts "3. List All Characters"
     puts "4. List Characters By School"
     puts '5. List Characters By House'
