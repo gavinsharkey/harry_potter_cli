@@ -74,9 +74,7 @@ class HarryPotterCLI::CLI
   def find_character
     print "\nName of character (case_insensitive): "
     name = gets.strip
-    regexp = HarryPotterCLI::Character.name_to_regexp(name)
-    character = HarryPotterCLI::Character.find_by_regexp(regexp)
-    # character = HarryPotterCLI::Character.find_by_name(name)
+    character = HarryPotterCLI::Character.find_by_name(name)
     if character 
       self.character_details(character)
       print "\nWould you like to find another character?(Y/N) "
